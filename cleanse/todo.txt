@@ -1,0 +1,3 @@
+customizable settings - allow user to choose which aspects to block
+visualization of how many things are blocked
+whitelisting
