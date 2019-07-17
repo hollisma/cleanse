@@ -1,8 +1,4 @@
-chrome.notifications.create("basic", {
-  type: "basic",
-  title: "test",
-  message: "hello"
-});
+console.log("in popup.js");
 
 // const DEFAULT = {
 //   open: true,
@@ -35,8 +31,9 @@ chrome.notifications.create("basic", {
 // // open = open ? open : DEFAULT.open;
 
 // console.log("open", open);
-
+console.log("window.open", window.open);
 window.open = () => console.log("Page attempting to open new window");
+console.log("window.open", window.open);
 window.resizeTo = () => console.log("Page attempting to resize window");
 window.resizeBy = () => console.log("Page attempting to resize window");
 window.moveTo = () => console.log("Page attempting to move window");
