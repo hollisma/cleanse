@@ -15,5 +15,6 @@
       "js": ["popup.js"]
     }
   ],
+  "web_accessible_resources": ["script.js"],
   "permissions": ["activeTab", "storage"]
 }
